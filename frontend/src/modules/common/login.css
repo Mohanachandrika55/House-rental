@@ -1,0 +1,49 @@
+.login-page {
+min-height: 100vh;
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #f7f5f2, #ece7df);
+display: flex;
+flex-direction: column;
+}
+
+/* Elegant ivory card */
+.glass-card {
+background: #ffffff;
+border-radius: 18px;
+padding: 45px;
+width: 420px;
+box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+border: 1px solid #e5dccf;
+color: #2b2b2b;
+}
+
+/* Soft gold button */
+.modern-btn {
+background: linear-gradient(135deg, #caa75e, #b8964c) !important;
+color: #fff !important;
+border-radius: 10px !important;
+font-weight: 600 !important;
+transition: all 0.2s ease !important;
+}
+
+.modern-btn:hover {
+background: linear-gradient(135deg, #d4b46c, #caa75e) !important;
+transform: translateY(-1px);
+box-shadow: 0 4px 12px rgba(202,167,94,0.35);
+}
+
+/* Clean navbar */
+.nav-modern {
+background: #ffffff !important;
+border-bottom: 1px solid #e5dccf;
+}
+
+.nav-modern a {
+color: #6b5b3e;
+margin-right: 18px;
+font-weight: 500;
+}
+
+.nav-modern a:hover {
+color: #b8964c;
+}

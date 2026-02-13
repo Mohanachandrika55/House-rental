@@ -1,0 +1,41 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-modern {
+  background: white !important;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.register-card {
+  background: white;
+  padding: 45px;
+  border-radius: 18px;
+  width: 420px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.register-card:hover {
+  transform: translateY(-3px);
+}
+
+.modern-btn {
+  background: linear-gradient(90deg, #6366f1, #3b82f6) !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 6px 15px rgba(99,102,241,0.35);
+}
+
+.modern-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(99,102,241,0.5);
+}
+
+a {
+  margin-left: 5px;
+  text-decoration: none;
+}
